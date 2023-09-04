@@ -8,6 +8,7 @@ export default function Feed() {
   return (
     <div className='lg:flex-[0.8] md:w-full sm:w-full mr-1 overflow-y-auto overflow-x-hidden'>
         <FeedHeader />
+        
         <div className='w-full py-2 px-2'>
             <h3 className='text-[#ff0000] lg:text-3xl md:text-xl sm:text-md'>Videos</h3>
         </div>
