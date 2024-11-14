@@ -28,7 +28,7 @@ function DarkButton() {
 
   // Toggle dark mode manually (e.g., on button click)
   const toggleDarkMode = () => {
-    setIsDarkMode((prev) => !prev);
+    setIsDarkMode((prev: any) => !prev);
   };
 
   return (

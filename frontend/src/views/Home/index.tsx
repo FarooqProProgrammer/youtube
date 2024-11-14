@@ -1,12 +1,14 @@
-
-
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   return (
-    <div>
-      dsf
-    </div>
-  )
-}
+    <>
+      <Helmet>
+        <title>Home Page</title>
+      </Helmet>
+      <div>dsf</div>
+    </>
+  );
+};
 
-export default Home
+export default Home;

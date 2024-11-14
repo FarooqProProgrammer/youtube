@@ -1,6 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Roboto";
+}
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
