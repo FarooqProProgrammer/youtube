@@ -1,15 +1,18 @@
-
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from './views/Home'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./views/Home";
+import DarkButton from "./components/DarkButton";
+import Header from "./components/Header";
 
 const App = () => {
   return (
-   <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home />} />
-    </Routes>
-   </BrowserRouter>
-  )
-}
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+      <DarkButton />
+    </BrowserRouter>
+  );
+};
 
-export default App
+export default App;
